@@ -24,7 +24,7 @@
 # THE SOFTWARE.
 #
 """
-Initialise the QDarkGrayStyleSheet module when used with python.
+Initialise the qcrimsonetstyleSheet module when used with python.
 
 This modules provides a function to transparently load the stylesheets
 with the correct rc file.
@@ -35,14 +35,14 @@ from deprecated import deprecated
 
 from PyQt5 import QtCore
 
-from qdarkgraystyle import compile_qrc, pyqt5_style_rc
+from qcrimsonetstyle import compile_qrc, pyqt5_style_rc
 
 
 __version__ = '1.0.2'
 
 
 def _logger():
-    return logging.getLogger('qdarkgraystyle')
+    return logging.getLogger('qcrimsonetstyle')
 
 
 def load_stylesheet():
@@ -52,7 +52,7 @@ def load_stylesheet():
     """
 
     # Smart import of the rc file
-    f = QtCore.QFile(':qdarkgraystyle/style.qss')
+    f = QtCore.QFile(':qcrimsonetstyle/style.qss')
     if not f.exists():
         _logger().error('Unable to load stylesheet, file not found in '
                         'resources')
