@@ -344,7 +344,7 @@ QTabWidget:focus, QCheckBox:focus, QRadioButton:focus, QSlider:focus
 
 QLineEdit
 {
-    background-color: #1e1e1e;
+    background-color: #181818;
     selection-background-color: #141D2B;
     selection-color: white;
     padding: 5px;
@@ -510,7 +510,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
 
 QTextEdit
 {
-    background-color: #1e1e1e;
+    background-color: #181818;
     color: #eff0f1;
     border: 1px solid #202837;
     font-family: Monospace;
@@ -518,7 +518,7 @@ QTextEdit
 
 QPlainTextEdit
 {
-    background-color: #1e1e1e;;
+    background-color: #181818;;
     color: #eff0f1;
     border-radius: 2px;
     border: 1px solid #202837;
@@ -723,7 +723,7 @@ QComboBox::down-arrow:focus
 QAbstractSpinBox {
     padding: 2px;
     margin: 2px;
-    background-color: #1e1e1e;
+    background-color: #181818;
     color: #eff0f1;
     border-radius: 0px;
     min-width: 75px;
@@ -774,6 +774,7 @@ QLabel
     margin-left: 2px;
     margin-right: 2px;
     color: white;
+    font-family: Monospace;
 }
 
 QTabWidget{
@@ -1315,7 +1316,7 @@ QDateEdit:on
 
 QDateEdit QAbstractItemView
 {
-    background-color: #1e1e1e;
+    background-color: #181818;
     border-radius: 2px;
     border: 1px solid #3375A3;
     selection-background-color: #D1DBCB;
