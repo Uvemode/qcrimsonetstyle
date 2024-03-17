@@ -31,7 +31,6 @@ with the correct rc file.
 """
 import logging
 import platform
-from deprecated import deprecated
 
 from PyQt5 import QtCore
 
@@ -72,7 +71,3 @@ def load_stylesheet():
             '''
             stylesheet += mac_fix
         return stylesheet
-
-@deprecated(version='1.0.0', reason="You should use load_stylesheet")
-def load_stylesheet_pyqt5():
-    return load_stylesheet()
