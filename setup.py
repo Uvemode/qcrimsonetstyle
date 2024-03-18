@@ -42,7 +42,7 @@ setup(
     url='https://github.com/Uvemode/qcrimsonetstyle',
     license='MIT License',
     author='Ulises Vinado',
-    author_email='ulisesvinado.pentesting@gmail.com',
+    author_email='18345040+Uvemode@users.noreply.github.com',
     description='A dark gray stylesheet for PyQt/PySide applications forked from https://github.com/mstuttgart/qdarkgraystyle',
     long_description=readme,
 
