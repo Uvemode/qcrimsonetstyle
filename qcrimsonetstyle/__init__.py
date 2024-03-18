@@ -24,7 +24,7 @@
 # THE SOFTWARE.
 #
 """
-Initialise the qcrimsonetstyleSheet module when used with python.
+Initialise the qcrimsostyleSheet module when used with python.
 
 This modules provides a function to transparently load the stylesheets
 with the correct rc file.
@@ -34,14 +34,14 @@ import platform
 
 from PyQt5 import QtCore
 
-from qcrimsonetstyle import compile_qrc, pyqt5_style_rc
+from qcrimsostyle import compile_qrc, pyqt5_style_rc
 
 
 __version__ = '1.0.2'
 
 
 def _logger():
-    return logging.getLogger('qcrimsonetstyle')
+    return logging.getLogger('qcrimsostyle')
 
 
 def load_stylesheet():
@@ -51,7 +51,7 @@ def load_stylesheet():
     """
 
     # Smart import of the rc file
-    f = QtCore.QFile(':qcrimsonetstyle/style.qss')
+    f = QtCore.QFile(':qcrimsostyle/style.qss')
     if not f.exists():
         _logger().error('Unable to load stylesheet, file not found in '
                         'resources')

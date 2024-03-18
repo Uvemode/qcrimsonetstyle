@@ -25,10 +25,10 @@ script:
 deploy:
   provider: pypi
   distributions: "sdist bdist_wheel"
-  user: mstuttgart
+  user: Uvemode
   password: $PYPI_PASSWORD
   on:
     tags: true
-    repo: mstuttgart/qcrimsonetstyle
+    repo: Uvemode/qcrimsostyle
     branch: master
     python: '3.5'

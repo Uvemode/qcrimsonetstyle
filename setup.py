@@ -30,20 +30,20 @@ QDarkGreyStyle is a dark gray stylesheet for python qt applications
 import os
 import sys
 from setuptools import setup, find_packages
-from qcrimsonetstyle import __version__
+from qcrimsostyle import __version__
 
 with open('README.rst', 'r') as readme_file:
     readme = readme_file.read()
 
 setup(
-    name='qcrimsonetstyle',
+    name='qcrimsostyle',
     version=__version__,
     packages=find_packages(),
-    url='https://github.com/Uvemode/qcrimsonetstyle',
+    url='https://github.com/Uvemode/qcrimsostyle',
     license='MIT License',
     author='Ulises Vinado',
     author_email='18345040+Uvemode@users.noreply.github.com',
-    description='A dark gray stylesheet for PyQt/PySide applications forked from https://github.com/mstuttgart/qdarkgraystyle',
+    description='A dark gray stylesheet for PyQt/PySide applications forked from https://github.com/Uvemode/qdarkgraystyle',
     long_description=readme,
 
     install_requires=[

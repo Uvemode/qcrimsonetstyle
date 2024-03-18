@@ -7,9 +7,9 @@ include MANIFEST.in
 include setup.py
 include LICENSE
 include README.rst
-include qcrimsonetstyle/style.qss
-include qcrimsonetstyle/style.qrc
-include qcrimsonetstyle/rc/*.png
+include qcrimsostyle/style.qss
+include qcrimsostyle/style.qrc
+include qcrimsostyle/rc/*.png
 
 
 

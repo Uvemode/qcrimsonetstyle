@@ -33,7 +33,7 @@ Requirements:
     - Python 3
     - PyQt5
 
-.. note.. :: qcrimsonetstyle does not have to be installed to run
+.. note.. :: qcrimsostyle does not have to be installed to run
     the example
 
 """
@@ -44,7 +44,7 @@ import os
 
 from PyQt5 import QtWidgets, QtCore
 
-import qcrimsonetstyle
+import qcrimsostyle
 from example.ui import example_pyqt5_ui as example_ui
 
 
@@ -67,7 +67,7 @@ class TestPyQt5(unittest.TestCase):
         ui.setupUi(window)
 
         # setup stylesheet
-        app.setStyleSheet(qcrimsonetstyle.load_stylesheet())
+        app.setStyleSheet(qcrimsostyle.load_stylesheet())
 
         # auto quit after 2s when testing on travis-ci
         QtCore.QTimer.singleShot(2000, app.exit)
