@@ -848,7 +848,7 @@ QTabWidget::tab-bar {
 
 QTabBar::tab:top {
     color: white;
-    border-bottom: 2px solid #88CC00;
+    border-bottom: 2px solid crimson;
     border-top: 1px solid #2B3038;
     border-right: 1px solid #2B3038;
     border-left: 1px solid #2B3038;
