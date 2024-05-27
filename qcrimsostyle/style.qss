@@ -529,6 +529,7 @@ QPlainTextEdit
     color: #eff0f1;
     border-radius: 2px;
     border: 1px solid #2B3038;
+    font-family: Monospace;
 }
 
 QHeaderView::section
